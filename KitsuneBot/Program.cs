@@ -1,12 +1,16 @@
 ﻿using System;
+using System.Threading.Tasks;
+using Discord;
 
 namespace KitsuneBot
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args) => new Program().MainAsync().GetAwaiter().GetResult();
+        #pragma warning disable 1998
+        public async Task MainAsync()
         {
-            Console.WriteLine("Hello World!");
         }
+        #pragma warning restore 1998
     }
 }
