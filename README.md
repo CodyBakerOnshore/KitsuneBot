@@ -1,0 +1,2 @@
+# KitsuneBot
+WIP Discord Bot
